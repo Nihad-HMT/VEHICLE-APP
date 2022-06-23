@@ -7,19 +7,44 @@ public class UserModel {
     private String password;
     private String email;
     private String role;
+    private String phone;
+    private String nic;
+    private String image;
 
-
-    public UserModel(String userId, String password, String role, String username, String email) {
+    public UserModel(String userId, String username, String password, String email, String role, String phone, String nic, String image) {
         this.userId = userId;
+        this.username = username;
         this.password = password;
         this.email = email;
         this.role = role;
-        this.username = username;
+        this.phone = phone;
+        this.nic = nic;
+        this.image = image;
     }
 
-    public UserModel()
-    {
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getNic() {
+        return nic;
+    }
+
+    public void setNic(String nic) {
+        this.nic = nic;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public String getUserId() {
