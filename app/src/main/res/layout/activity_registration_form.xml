@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.27" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/signup"
         android:layout_width="136dp"
         android:layout_height="41dp"
         android:layout_marginStart="60dp"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.857" />
 
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/login"
         android:layout_width="136dp"
         android:layout_height="41dp"
         android:backgroundTint="#F77ED659"
@@ -47,7 +47,8 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/login"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.857" />
 
